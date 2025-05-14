@@ -1,4 +1,5 @@
-[
+{
+  "product":[
   {
     "id": 1,
     "name": "Omega Seamaster",
@@ -400,3 +401,4 @@
     "image": "https://example.com/images/watch50.jpg"
   }
 ]
+}
