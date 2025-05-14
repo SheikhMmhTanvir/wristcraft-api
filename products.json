@@ -1,5 +1,4 @@
-{
-  "product":[
+[
   {
       "id": 1,
       "name": "Classic Chronograph",
@@ -209,4 +208,4 @@
                 discount: false
             }
 ]
-}
+
