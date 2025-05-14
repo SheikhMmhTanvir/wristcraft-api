@@ -1,404 +1,212 @@
 {
   "product":[
   {
+      "id": 1,
+      "name": "Classic Chronograph",
+      "description": "Elegant chronograph with leather strap and stainless steel case.",
+      "price": 299.99,
+      "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+      "category": "luxury",
+      "rating": 4.8,
+      "discount": true
+    },
+    {
+      "id": 2,
+      "name": "Sport Diver",
+      "description": "Water-resistant to 300m with rotating bezel and luminous markers.",
+      "price": 199.99,
+      "image": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+      "category": "sport",
+      "rating": 4.5,
+      "discount": false
+    },
+    {
+      "id": 3,
+      "name": "Minimalist Quartz",
+      "description": "Clean design with Japanese quartz movement and mesh bracelet.",
+      "price": 149.99,
+      "image": "https://images.unsplash.com/photo-1539874754764-5a96559165b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+      "category": "casual",
+      "rating": 4.2,
+      "discount": true
+    },
+    {
+      "id": 4,
+      "name": "Automatic Skeleton",
+      "description": "Visible mechanism with automatic winding and sapphire crystal.",
+      "price": 399.99,
+      "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+      "category": "luxury",
+      "rating": 4.9,
+      "discount": false
+    },
+    {
+      "id": 5,
+      "name": "Digital Smartwatch",
+      "description": "Fitness tracking, notifications, and heart rate monitoring.",
+      "price": 249.99,
+      "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+      "category": "sport",
+      "rating": 4.6,
+      "discount": true
+    },
+    {
+      "id": 6,
+      "name": "Vintage Inspired",
+      "description": "Retro design with modern reliability and genuine leather strap.",
+      "price": 179.99,
+      "image": "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+      "category": "casual",
+      "rating": 4.3,
+      "discount": false
+    },
+    {
+      "id": 7,
+      "name": "Pilot Chronometer",
+      "description": "Inspired by aviation with multiple time zones and tachymeter.",
+      "price": 349.99,
+      "image": "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+      "category": "luxury",
+      "rating": 4.7,
+      "discount": true
+    },
+    {
+      "id": 8,
+      "name": "Everyday Field Watch",
+      "description": "Durable construction with canvas strap and luminous hands.",
+      "price": 129.99,
+      "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+      "category": "casual",
+      "rating": 4.4,
+      "discount": false
+    },
+    {
+      "id": 9,
+      "name": "Luxury Gold Watch",
+      "description": "Premium gold-plated watch with diamond accents and sapphire crystal.",
+      "price": 599.99,
+      "image": "https://images.unsplash.com/photo-1619946794135-5bc917a27793?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+      "category": "luxury",
+      "rating": 4.9,
+      "discount": true
+    },
+    {
+      "id": 10,
+      "name": "Fitness Tracker",
+      "description": "Advanced fitness tracking with heart rate, GPS, and sleep monitoring.",
+      "price": 179.99,
+      "image": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+      "category": "sport",
+      "rating": 4.6,
+      "discount": false
+    },
+    {
+      "id": 11,
+      "name": "Wooden Watch",
+      "description": "Eco-friendly watch with natural wood case and leather strap.",
+      "price": 159.99,
+      "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+      "category": "casual",
+      "rating": 4.3,
+      "discount": true
+    },
+    {
+      "id": 12,
+      "name": "Ceramic Designer Watch",
+      "description": "Modern ceramic watch with scratch-resistant face and minimalist design.",
+      "price": 289.99,
+      "image": "https://images.unsplash.com/photo-1549972574-8e3e1ed6a347?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+      "category": "luxury",
+      "rating": 4.7,
+      "discount": false
+    },
+     {
     "id": 1,
     "name": "Omega Seamaster",
     "brand": "Omega",
     "price": 450,
     "discount": 10,
-    "image": "https://example.com/images/omega-seamaster.jpg"
+    "image": "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg"
   },
-  {
-    "id": 2,
-    "name": "Casio G-Shock",
-    "brand": "Casio",
-    "price": 120,
-    "discount": 5,
-    "image": "https://example.com/images/casio-gshock.jpg"
-  },
-  {
-    "id": 3,
-    "name": "Rolex Submariner",
-    "brand": "Rolex",
-    "price": 1250,
-    "discount": 15,
-    "image": "https://example.com/images/rolex-submariner.jpg"
-  },
-  {
-    "id": 4,
-    "name": "Citizen Chronograph",
-    "brand": "Citizen",
-    "price": 773,
-    "discount": 0,
-    "image": "https://example.com/images/watch4.jpg"
-  },
-  {
-    "id": 5,
-    "name": "Timex Sport",
-    "brand": "Timex",
-    "price": 392,
-    "discount": 20,
-    "image": "https://example.com/images/watch5.jpg"
-  },
-  {
-    "id": 6,
-    "name": "Omega Classic",
-    "brand": "Omega",
-    "price": 1051,
-    "discount": 10,
-    "image": "https://example.com/images/watch6.jpg"
-  },
-  {
-    "id": 7,
-    "name": "Tag Heuer Diver",
-    "brand": "Tag Heuer",
-    "price": 519,
-    "discount": 20,
-    "image": "https://example.com/images/watch7.jpg"
-  },
-  {
-    "id": 8,
-    "name": "Citizen Limited Edition",
-    "brand": "Citizen",
-    "price": 1150,
-    "discount": 20,
-    "image": "https://example.com/images/watch8.jpg"
-  },
-  {
-    "id": 9,
-    "name": "Bulova Heritage",
-    "brand": "Bulova",
-    "price": 607,
-    "discount": 20,
-    "image": "https://example.com/images/watch9.jpg"
-  },
-  {
-    "id": 10,
-    "name": "Omega Limited Edition",
-    "brand": "Omega",
-    "price": 484,
-    "discount": 15,
-    "image": "https://example.com/images/watch10.jpg"
-  },
-  {
-    "id": 11,
-    "name": "Omega Digital",
-    "brand": "Omega",
-    "price": 563,
-    "discount": 0,
-    "image": "https://example.com/images/watch11.jpg"
-  },
-  {
-    "id": 12,
-    "name": "Fossil Limited Edition",
-    "brand": "Fossil",
-    "price": 837,
-    "discount": 20,
-    "image": "https://example.com/images/watch12.jpg"
-  },
-  {
-    "id": 13,
-    "name": "Rolex Sport",
-    "brand": "Rolex",
-    "price": 207,
-    "discount": 20,
-    "image": "https://example.com/images/watch13.jpg"
-  },
-  {
-    "id": 14,
-    "name": "Omega Minimalist",
-    "brand": "Omega",
-    "price": 958,
-    "discount": 15,
-    "image": "https://example.com/images/watch14.jpg"
-  },
-  {
-    "id": 15,
-    "name": "Bulova Automatic",
-    "brand": "Bulova",
-    "price": 151,
-    "discount": 5,
-    "image": "https://example.com/images/watch15.jpg"
-  },
-  {
-    "id": 16,
-    "name": "Bulova Minimalist",
-    "brand": "Bulova",
-    "price": 135,
-    "discount": 15,
-    "image": "https://example.com/images/watch16.jpg"
-  },
-  {
-    "id": 17,
-    "name": "Fossil Chronograph",
-    "brand": "Fossil",
-    "price": 603,
-    "discount": 10,
-    "image": "https://example.com/images/watch17.jpg"
-  },
-  {
-    "id": 18,
-    "name": "Fossil Diver",
-    "brand": "Fossil",
-    "price": 892,
-    "discount": 5,
-    "image": "https://example.com/images/watch18.jpg"
-  },
-  {
-    "id": 19,
-    "name": "Bulova Digital",
-    "brand": "Bulova",
-    "price": 1087,
-    "discount": 10,
-    "image": "https://example.com/images/watch19.jpg"
-  },
-  {
-    "id": 20,
-    "name": "Casio Minimalist",
-    "brand": "Casio",
-    "price": 248,
-    "discount": 20,
-    "image": "https://example.com/images/watch20.jpg"
-  },
-  {
-    "id": 21,
-    "name": "Omega Digital",
-    "brand": "Omega",
-    "price": 1160,
-    "discount": 5,
-    "image": "https://example.com/images/watch21.jpg"
-  },
-  {
-    "id": 22,
-    "name": "Fossil Minimalist",
-    "brand": "Fossil",
-    "price": 371,
-    "discount": 10,
-    "image": "https://example.com/images/watch22.jpg"
-  },
-  {
-    "id": 23,
-    "name": "Bulova Sport",
-    "brand": "Bulova",
-    "price": 629,
-    "discount": 5,
-    "image": "https://example.com/images/watch23.jpg"
-  },
-  {
-    "id": 24,
-    "name": "Casio Luxury",
-    "brand": "Casio",
-    "price": 377,
-    "discount": 20,
-    "image": "https://example.com/images/watch24.jpg"
-  },
-  {
-    "id": 25,
-    "name": "Tissot Minimalist",
-    "brand": "Tissot",
-    "price": 204,
-    "discount": 10,
-    "image": "https://example.com/images/watch25.jpg"
-  },
-  {
-    "id": 26,
-    "name": "Timex Automatic",
-    "brand": "Timex",
-    "price": 1307,
-    "discount": 10,
-    "image": "https://example.com/images/watch26.jpg"
-  },
-  {
-    "id": 27,
-    "name": "Fossil Chronograph",
-    "brand": "Fossil",
-    "price": 643,
-    "discount": 5,
-    "image": "https://example.com/images/watch27.jpg"
-  },
-  {
-    "id": 28,
-    "name": "Seiko Chronograph",
-    "brand": "Seiko",
-    "price": 1334,
-    "discount": 15,
-    "image": "https://example.com/images/watch28.jpg"
-  },
-  {
-    "id": 29,
-    "name": "Casio Heritage",
-    "brand": "Casio",
-    "price": 1322,
-    "discount": 0,
-    "image": "https://example.com/images/watch29.jpg"
-  },
-  {
-    "id": 30,
-    "name": "Bulova Minimalist",
-    "brand": "Bulova",
-    "price": 548,
-    "discount": 0,
-    "image": "https://example.com/images/watch30.jpg"
-  },
-  {
-    "id": 31,
-    "name": "Casio Heritage",
-    "brand": "Casio",
-    "price": 1230,
-    "discount": 10,
-    "image": "https://example.com/images/watch31.jpg"
-  },
-  {
-    "id": 32,
-    "name": "Tissot Automatic",
-    "brand": "Tissot",
-    "price": 1214,
-    "discount": 20,
-    "image": "https://example.com/images/watch32.jpg"
-  },
-  {
-    "id": 33,
-    "name": "Tissot Minimalist",
-    "brand": "Tissot",
-    "price": 1347,
-    "discount": 15,
-    "image": "https://example.com/images/watch33.jpg"
-  },
-  {
-    "id": 34,
-    "name": "Seiko Limited Edition",
-    "brand": "Seiko",
-    "price": 856,
-    "discount": 10,
-    "image": "https://example.com/images/watch34.jpg"
-  },
-  {
-    "id": 35,
-    "name": "Tag Heuer Diver",
-    "brand": "Tag Heuer",
-    "price": 852,
-    "discount": 0,
-    "image": "https://example.com/images/watch35.jpg"
-  },
-  {
-    "id": 36,
-    "name": "Tag Heuer Chronograph",
-    "brand": "Tag Heuer",
-    "price": 1054,
-    "discount": 15,
-    "image": "https://example.com/images/watch36.jpg"
-  },
-  {
-    "id": 37,
-    "name": "Timex Chronograph",
-    "brand": "Timex",
-    "price": 832,
-    "discount": 0,
-    "image": "https://example.com/images/watch37.jpg"
-  },
-  {
-    "id": 38,
-    "name": "Bulova Classic",
-    "brand": "Bulova",
-    "price": 1435,
-    "discount": 5,
-    "image": "https://example.com/images/watch38.jpg"
-  },
-  {
-    "id": 39,
-    "name": "Rolex Automatic",
-    "brand": "Rolex",
-    "price": 1217,
-    "discount": 10,
-    "image": "https://example.com/images/watch39.jpg"
-  },
-  {
-    "id": 40,
-    "name": "Timex Sport",
-    "brand": "Timex",
-    "price": 126,
-    "discount": 15,
-    "image": "https://example.com/images/watch40.jpg"
-  },
-  {
-    "id": 41,
-    "name": "Citizen Heritage",
-    "brand": "Citizen",
-    "price": 1484,
-    "discount": 5,
-    "image": "https://example.com/images/watch41.jpg"
-  },
-  {
-    "id": 42,
-    "name": "Timex Luxury",
-    "brand": "Timex",
-    "price": 1097,
-    "discount": 5,
-    "image": "https://example.com/images/watch42.jpg"
-  },
-  {
-    "id": 43,
-    "name": "Rolex Chronograph",
-    "brand": "Rolex",
-    "price": 1220,
-    "discount": 0,
-    "image": "https://example.com/images/watch43.jpg"
-  },
-  {
-    "id": 44,
-    "name": "Tag Heuer Chronograph",
-    "brand": "Tag Heuer",
-    "price": 1359,
-    "discount": 0,
-    "image": "https://example.com/images/watch44.jpg"
-  },
-  {
-    "id": 45,
-    "name": "Tissot Digital",
-    "brand": "Tissot",
-    "price": 1465,
-    "discount": 10,
-    "image": "https://example.com/images/watch45.jpg"
-  },
-  {
-    "id": 46,
-    "name": "Rolex Limited Edition",
-    "brand": "Rolex",
-    "price": 1316,
-    "discount": 20,
-    "image": "https://example.com/images/watch46.jpg"
-  },
-  {
-    "id": 47,
-    "name": "Citizen Heritage",
-    "brand": "Citizen",
-    "price": 1168,
-    "discount": 5,
-    "image": "https://example.com/images/watch47.jpg"
-  },
-  {
-    "id": 48,
-    "name": "Timex Limited Edition",
-    "brand": "Timex",
-    "price": 1212,
-    "discount": 0,
-    "image": "https://example.com/images/watch48.jpg"
-  },
-  {
-    "id": 49,
-    "name": "Seiko Chronograph",
-    "brand": "Seiko",
-    "price": 1453,
-    "discount": 20,
-    "image": "https://example.com/images/watch49.jpg"
-  },
-  {
-    "id": 50,
-    "name": "Rolex Classic",
-    "brand": "Rolex",
-    "price": 543,
-    "discount": 20,
-    "image": "https://example.com/images/watch50.jpg"
-  }
+    {
+                id: 1,
+                name: "Classic Chronograph",
+                description: "Elegant chronograph with leather strap and stainless steel case.",
+                price: 299.99,
+                image: "https://images.unsplash.com/photo-1524805444758-089113d48a6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+                category: "luxury",
+                rating: 4.8,
+                discount: true
+            },
+            {
+                id: 2,
+                name: "Sport Diver",
+                description: "Water-resistant to 300m with rotating bezel and luminous markers.",
+                price: 199.99,
+                image: "https://images.unsplash.com/photo-1547996160-81dfa63595aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+                category: "sport",
+                rating: 4.5,
+                discount: false
+            },
+            {
+                id: 3,
+                name: "Minimalist Quartz",
+                description: "Clean design with Japanese quartz movement and mesh bracelet.",
+                price: 149.99,
+                image: "https://images.unsplash.com/photo-1539874754764-5a96559165b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+                category: "casual",
+                rating: 4.2,
+                discount: true
+            },
+            {
+                id: 4,
+                name: "Automatic Skeleton",
+                description: "Visible mechanism with automatic winding and sapphire crystal.",
+                price: 399.99,
+                image: "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+                category: "luxury",
+                rating: 4.9,
+                discount: false
+            },
+            {
+                id: 5,
+                name: "Digital Smartwatch",
+                description: "Fitness tracking, notifications, and heart rate monitoring.",
+                price: 249.99,
+                image: "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+                category: "sport",
+                rating: 4.6,
+                discount: true
+            },
+            {
+                id: 6,
+                name: "Vintage Inspired",
+                description: "Retro design with modern reliability and genuine leather strap.",
+                price: 179.99,
+                image: "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+                category: "casual",
+                rating: 4.3,
+                discount: false
+            },
+            {
+                id: 7,
+                name: "Pilot Chronometer",
+                description: "Inspired by aviation with multiple time zones and tachymeter.",
+                price: 349.99,
+                image: "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+                category: "luxury",
+                rating: 4.7,
+                discount: true
+            },
+            {
+                id: 8,
+                name: "Everyday Field Watch",
+                description: "Durable construction with canvas strap and luminous hands.",
+                price: 129.99,
+                image: "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+                category: "casual",
+                rating: 4.4,
+                discount: false
+            }
 ]
 }
