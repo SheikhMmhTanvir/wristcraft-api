@@ -80,16 +80,6 @@
       "discount": false
     },
     {
-      "id": 9,
-      "name": "Luxury Gold Watch",
-      "description": "Premium gold-plated watch with diamond accents and sapphire crystal.",
-      "price": 599.99,
-      "image": "https://images.unsplash.com/photo-1619946794135-5bc917a27793?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
-      "category": "luxury",
-      "rating": 4.9,
-      "discount": true
-    },
-    {
       "id": 10,
       "name": "Fitness Tracker",
       "description": "Advanced fitness tracking with heart rate, GPS, and sleep monitoring.",
